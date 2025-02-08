@@ -28,7 +28,7 @@ const server=express()
 
 
 server.use(cors({
-    origin: 'http://localhost:3000', // Allow requests from frontend
+    origin: 'https://mern-ecommerce-inky-theta.vercel.app/', // Allow requests from frontend
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization']
   }));
